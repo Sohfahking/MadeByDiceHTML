@@ -1,0 +1,117 @@
+/*CSS Made By Dice Home Page */
+
+body {
+    background-color: var(--old-copper);
+    font-family: Georgia, bold, serif;
+}
+
+h1 {
+    display: block;
+    font-family: Georgia, bold, serif;
+    color: var(--double-spanish-white);
+    text-align: center;
+}
+
+h2 {
+    font-family: Georgia, bold, serif;
+    color: var(--double-spanish-white);
+    text-align: center;
+}
+
+p {
+    background-color: var(--leather);
+    font-family: serif;
+    font-size: 20px;
+    color: var(--double-spanish-white);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+/* Format lists, background, and text */
+li {
+    font-family: Georgia, serif;
+}
+
+/* Use contextual/attribute selectors */
+li a {
+    display: block;
+    background-color: var(--double-spanish-white);
+    color: var(--old-copper);
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+/*Use pseudo classes for hypertext links */
+li a:hover {
+    color: var(--double-spanish-white);
+}
+
+nav {
+    display: inline-block;
+    width: 95%;
+    height: 15px;
+    padding-block: 10px;
+    padding-inline: 20px;
+    margin: auto;
+    text-align: right;
+    font-family: Georgia, bold, serif;
+    color: var(--cedar);
+    font-size: 14px;
+
+}
+
+/*Use pseudo classes for hypertext links */
+
+nav a:hover {
+
+    background-color: var(--old-copper);
+}
+
+a {
+    display: inline-block;
+    margin: auto;
+
+}
+
+#introduction {
+    display: block;
+    padding-block: 5px;
+    padding-inline: 20px;
+    margin: auto;
+    width: 70%;
+    background-color: var(--leather);
+    font-family: Georgia, serif;
+    color: var(--double-spanish-white);
+    text-align: center;
+
+}
+
+#social {
+    display: block;
+    margin: auto;
+    width: 400px;
+}
+
+#social a:hover {
+    background-color: var(--old-copper);
+    color: var(--double-spanish-white);
+}
+
+
+#foot-copy {
+    display: block;
+    margin: auto;
+    width: 95%;
+    height: 20px;
+    background-color: var(--double-spanish-white);
+    text-align: center;
+    font-family: Georgia, serif;
+    color: var(--old-copper);
+
+}

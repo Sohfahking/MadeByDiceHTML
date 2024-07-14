@@ -1,0 +1,201 @@
+/*CSS Made By Dice Ordering Page */
+
+body {
+  background-color: var(--old-copper);
+  font-family: Georgia, bold, serif;
+}
+
+h1 {
+  display: block;
+  font-family: Georgia, bold, serif;
+  color: var(--double-spanish-white);
+  text-align: center;
+}
+
+h2 {
+  font-family: Georgia, bold, serif;
+  color: var(--double-spanish-white);
+  text-align: center;
+}
+
+p {
+  background: var(--cedar);
+  font-family: serif;
+  font-size: 20px;
+  color: var(--double-spanish-white);
+}
+
+/* Handle overflow */
+ul {
+  display: block;
+  list-style-type: none;
+  overflow: hidden;
+  font-family: Georgia, serif;
+}
+
+/* Format lists, background, and text */
+li {
+  font-family: Georgia, serif;
+  color: var(--cedar);
+}
+
+/* Use contextual/attribute selectors */
+li a {
+  display: block;
+  background-color: var(--double-spanish-white);
+  color: var(--old-copper);
+  padding: 5px 16px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  color: var(--double-spanish-white);
+}
+
+nav {
+  display: inline-block;
+  width: 95%;
+  height: 15px;
+  padding-block: 10px;
+  padding-inline: 20px;
+  margin: auto;
+  text-align: right;
+  font-family: Georgia, bold, serif;
+  color: var(--cedar);
+  font-size: 14px;
+}
+
+/*Use pseudo classes for hypertext links */
+
+nav a:hover {
+
+  background-color: var(--old-copper);
+}
+
+a {
+  display: inline-block;
+  margin: auto;
+
+}
+
+
+#foot-copy {
+  display: block;
+  margin: auto;
+  width: 95%;
+  height: 20px;
+  background-color: var(--double-spanish-white);
+  text-align: center;
+  font-family: Georgia, serif;
+  color: var(--old-copper);
+  align-items: b;
+}
+
+.form {
+  display: block;
+  margin: 10px;
+  padding: 12px 20px;
+  background-color: var(--double-spanish-white);
+}
+
+input[type=text] {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px var(--old-copper);
+  border-radius: 2px;
+
+}
+
+/* Use pseudo classes/elements */
+input[type=text]:focus {
+  border: 4px solid var(--leather);
+
+}
+
+input[type=radio] {
+  font-family: Georgia, bold, serif;
+}
+
+input[type=radio]:focus {
+  border: 4px solid var(--leather);
+}
+
+
+/* Calendar */
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: var(--leather);
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  width: 80%;
+  margin: auto;
+  padding: 0;
+}
+
+.month ul li {
+
+  color: var(--double-spanish-white);
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+  margin: auto;
+}
+
+/* Weekdays */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background: var(--cedar);
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: var(--double-spanish-white);
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: var(--leather);
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: var(--cedar);
+}
+
+/* Highlight the "current" day */
+.days li:hover {
+  padding: 5px;
+  background: var(--cedar);
+  color: var(--double-spanish-white)
+}
